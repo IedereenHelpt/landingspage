@@ -9,12 +9,20 @@ const Footer = () => (
       <FooterColumn>
         <span>Contact</span>
         <ul>
-          <li><a href="mailto:contact@iedereenhelpt.nl">contact@iedereenhelpt.nl</a></li>
+          <li>
+            <a href="mailto:contact@iedereenhelpt.nl">
+              contact@iedereenhelpt.nl
+            </a>
+          </li>
         </ul>
       </FooterColumn>
       <FooterColumn>
         <span>Help ons!</span>
-        <p>Iedereen Helpt is opgezet door een groep vrijwilligers. Kun jij ons helpen op het gebied van hosting, advertentieruimte, technische skills, of heb je een ander goed idee? Neem contact op! Samen maken wij hulp bereikbaar voor iedereen.
+        <p>
+          Iedereen Helpt is opgezet door een groep vrijwilligers. Kun jij ons
+          helpen op het gebied van hosting, advertentieruimte, technische
+          skills, of heb je een ander goed idee? Neem contact op! Samen maken
+          wij hulp bereikbaar voor iedereen.
         </p>
       </FooterColumn>
     </FooterColumnContainer>

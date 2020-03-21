@@ -14,7 +14,7 @@ import {
   Mobile,
 } from "./style"
 
-const NAV_ITEMS = [];
+const NAV_ITEMS = []
 
 export default class Navigation extends Component {
   state = {

@@ -28,11 +28,12 @@ const Header = () => {
         <Flex>
           <HeaderTextGroup>
             <Subtitle>Help je buren</Subtitle>
-            <h1>
-              Samenwerken tijdens de Coronacrisis
-            </h1>
+            <h1>Samenwerken tijdens de Coronacrisis</h1>
             <h2>
-              Iedereen Helpt maakt hulp vragen en hulp aanbieden makkelijk en laagdrempelig. We gaan zo snel mogelijk live. Wil je op de hoogte blijven? Vul dan je e-mailadres in en je krijgt een berichtje wanneer je je kunt aanmelden.
+              Iedereen Helpt maakt hulp vragen en hulp aanbieden makkelijk en
+              laagdrempelig. We gaan zo snel mogelijk live. Wil je op de hoogte
+              blijven? Vul dan je e-mailadres in en je krijgt een berichtje
+              wanneer je je kunt aanmelden.
             </h2>
             <HeaderForm onSubmit={handleSubmit}>
               <HeaderInput placeholder="Jouw e-mail" />
