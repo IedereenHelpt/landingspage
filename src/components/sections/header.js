@@ -20,6 +20,8 @@ const Header = () => {
 
   const handleSubmit = event => {
     event.preventDefault()
+
+    window.location.href = 'http://eepurl.com/gW_PUr'
   }
 
   return (
@@ -36,7 +38,6 @@ const Header = () => {
               wanneer je je kunt aanmelden.
             </h2>
             <HeaderForm onSubmit={handleSubmit}>
-              <HeaderInput placeholder="Jouw e-mail" />
               <HeaderButton>Meld je aan voor de nieuwsbrief</HeaderButton>
             </HeaderForm>
           </HeaderTextGroup>
@@ -161,7 +162,6 @@ const HeaderButton = styled.button`
   letter-spacing: 1px;
   height: 60px;
   display: block;
-  margin-left: 8px;
   text-transform: uppercase;
   cursor: pointer;
   white-space: nowrap;
