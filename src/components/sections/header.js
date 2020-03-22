@@ -20,6 +20,8 @@ const Header = () => {
 
   const handleSubmit = event => {
     event.preventDefault()
+
+    window.location.href = 'http://eepurl.com/gW_PUr'
   }
 
   return (
@@ -27,24 +29,17 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Personal Finance</Subtitle>
-            <h1>
-              All your money,
-              <br />
-              one account
-            </h1>
+            <Subtitle>Help je buren</Subtitle>
+            <h1>Samenwerken tijdens de Coronacrisis</h1>
             <h2>
-              We're building next generation personal finance tools. Sign up to
-              get early access.
+              Iedereen Helpt maakt hulp vragen en hulp aanbieden makkelijk en
+              laagdrempelig. We gaan zo snel mogelijk live. Wil je op de hoogte
+              blijven? Vul dan je e-mailadres in en je krijgt een berichtje
+              wanneer je je kunt aanmelden.
             </h2>
             <HeaderForm onSubmit={handleSubmit}>
-              <HeaderInput placeholder="Your email" />
-              <HeaderButton>Early access</HeaderButton>
+              <HeaderButton>Meld je aan voor de nieuwsbrief</HeaderButton>
             </HeaderForm>
-            <FormSubtitle>
-              Already have a beta account?{" "}
-              <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
-            </FormSubtitle>
           </HeaderTextGroup>
           <ImageWrapper>
             <StyledImage fluid={data.file.childImageSharp.fluid} />
@@ -167,7 +162,6 @@ const HeaderButton = styled.button`
   letter-spacing: 1px;
   height: 60px;
   display: block;
-  margin-left: 8px;
   text-transform: uppercase;
   cursor: pointer;
   white-space: nowrap;
